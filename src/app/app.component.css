@@ -154,10 +154,20 @@ body {
   width: 75%;
 }
 
+.person{
+  font-size: 65px;
+  font-family:'Dancing Script';
+}
+
 @media screen and (max-width: 500px) {
   .remaining{
     width: 100%;
   }
+
+  .person{
+    font-size: 35px;
+  }
+
 }
 
 
