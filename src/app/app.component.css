@@ -1,3 +1,18 @@
+
+.glass{
+   background: inherit;
+   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+
+.glass-text{
+  position: relative;
+  z-index: 2;
+}
+.glass:before{
+  background: inherit;
+   backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+}
+
 .responsive {
     width: 100%;
   max-width: 100%;
@@ -11,7 +26,7 @@
 }
 
 .carousel-item img {
-  filter: brightness(50%);
+  filter: brightness(70%);
 }
 
 
@@ -60,6 +75,9 @@ body {
 }
 
 /* Container around content */
+
+
+
 .container-w3 {
   padding: 10px 40px;
   position: relative;
@@ -127,7 +145,7 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #fff7ef;
+  background-color: white;
   position: relative;
   border-radius: 6px;
 }
@@ -147,7 +165,7 @@ body {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
   /* Place the timelime to the left */
 
   
